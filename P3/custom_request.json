@@ -1,0 +1,11 @@
+{
+    "taxi_id": "62043",
+    "conductor_id": "CON28474",
+    "pasajero_id": ["P234", "P2434"],
+    "tipo_viaje": "POOL",
+    "ubicacion": {
+        "latitud": 25.4326,
+        "longitud": -87.1335
+    },
+    "tiempo": "2024-05-06T10:15:00.000Z"
+}

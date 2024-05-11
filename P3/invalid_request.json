@@ -1,0 +1,72 @@
+[
+  {
+    "taxi_id": "",
+    "conductor_id": "Carlos",
+    "pasajero_id": ["M", "Q"],
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "latitud": -16.499301,
+      "longitud": -68.133652
+    },
+    "tiempo": "2024-05-06T10:00:00.000Z"
+  },
+  {
+    "taxi_id": "102",
+    "conductor_id": "",
+    "pasajero_id": ["J"],
+    "tipoViaje": "REGULAR",
+    "ubicacion": {
+      "latitud": -16.566432,
+      "longitud": -68.089466
+    },
+    "tiempo": "2024-05-06T10:15:00.000Z"
+  },
+  {
+    "taxi_id": "103",
+    "conductor_id": "Juan",
+    "pasajero_id": ["A"],
+    "tipoViaje": "UNKNOWN",
+    "ubicacion": {
+      "latitud": -16.495796,
+      "longitud": -68.133644
+    },
+    "tiempo": "2024-05-06T10:30:00.000Z"
+  },
+  {
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "latitud": -16.497683,
+      "longitud": -68.138264
+    },
+    "tiempo": "2024-05-06T10:45:00.000Z"
+  },
+  {
+    "taxi_id": "105",
+    "conductor_id": "Luis",
+    "pasajero_id": [],
+    "tipoViaje": "REGULAR",
+    "ubicacion": {
+      "latitud": 0,
+      "longitud": 0
+    },
+    "tiempo": "2024-05-06T11:00:00.000Z"
+  },
+  {
+    "taxi_id": "110",
+    "conductor_id": "Luis",
+    "pasajero_id": ["AA", "BB"],
+    "tipoViaje": "POOL",
+    "ubicacion": {
+      "latitud": -16.504233,
+      "longitud": -68.130761
+    },
+    "tiempo": ""
+  },
+  {
+    "taxi_id": "110",
+    "conductor_id": "Luis",
+    "pasajero_id": ["AA", "BB"],
+    "tipoViaje": "POOL",
+    "tiempo": "2024-05-06T11:00:00.000Z"
+  }
+]

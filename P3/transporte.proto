@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+message Ubicacion {
+  double latitud = 1;  
+  double longitud = 2; 
+}
+
+
+enum TipoViaje {
+  UNSET = 0;  
+  REGULAR = 1; 
+  POOL = 2;   
+  PREMIUM = 3; 
+}
+
+message StartRequest {
+  string taxi_id = 1;          
+  string conductor_id = 2;    
+  repeated string pasajero_id = 3; 
+  TipoViaje tipo_viaje = 4;   
+  Ubicacion ubicacion = 5;     
+  google.protobuf.Timestamp tiempo = 6; 
+}
+
+message StartResponse {
+  string viaje_id = 1;         
+  double costo_cliente = 2;    
+}
+
+service Viaje_rpc {
+  rpc Start (StartRequest) returns (StartResponse);
+}

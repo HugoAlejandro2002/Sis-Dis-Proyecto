@@ -1,0 +1,2465 @@
+2024-05-10T22:59:59 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-10T23:09:09 - ERROR - _call_behavior - Exception calling application: name 'uuid' is not defined
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 24, in Start
+    id_viaje = gen_id()
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 13, in gen_id
+    id_gen = uuid.uuid4().hex
+NameError: name 'uuid' is not defined
+2024-05-10T23:10:15 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-10T23:10:20 - ERROR - _call_behavior - Exception calling application: name 'codigo_upb' is not defined
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    costo_base = codigo_upb % 100
+NameError: name 'codigo_upb' is not defined
+2024-05-10T23:11:31 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-10T23:22:03 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-10T23:22:20 - INFO - Start - viaje: taxi_id: "1233"
+conductor_id: "CON28474"
+pasajero_id: "P234"
+pasajero_id: "P2434"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: 25.4326
+  longitud: -97.1335
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-10T23:27:44 - INFO - Start - viaje: taxi_id: "62043"
+conductor_id: "CON28474"
+pasajero_id: "P234"
+pasajero_id: "P2434"
+tipo_viaje: POOL
+ubicacion {
+  latitud: 25.4326
+  longitud: -87.1335
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-10T23:42:14 - INFO - Start - viaje: taxi_id: "62043"
+conductor_id: "CON28474"
+pasajero_id: "P234"
+pasajero_id: "P2434"
+tipo_viaje: POOL
+ubicacion {
+  latitud: 25.4326
+  longitud: -87.1335
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-10T23:44:46 - INFO - Start - viaje: taxi_id: "62043"
+conductor_id: "CON28474"
+pasajero_id: "P234"
+pasajero_id: "P2434"
+tipo_viaje: POOL
+ubicacion {
+  latitud: 25.4326
+  longitud: -87.1335
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-10T23:47:48 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-10T23:47:49 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-10T23:47:49 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:28:22 - INFO - <module> - El servidor está listo en el puerto localhost:2027
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:35:20 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:35:21 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:35:21 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:36:02 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:36:03 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:37:12 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:37:12 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:37:12 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:37:13 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:40:19 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:40:19 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:40:19 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:40:19 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:40:19 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:40:20 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:40:20 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:40:20 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:40:20 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:40:20 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:40:32 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:40:35 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:40:36 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:42:36 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:42:40 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:42:41 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:42:41 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:45:26 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:45:41 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:45:41 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:41 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:45:41 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:41 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:45:41 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:41 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:45:41 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:42 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:45:42 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:42 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:45:42 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:42 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:45:42 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:42 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:45:42 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:42 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:45:42 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:45:42 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:45:42 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 7, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:04 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:48:08 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:48:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:08 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:48:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:08 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:48:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:08 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:48:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:08 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:48:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:09 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:48:09 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:09 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:48:09 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:09 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:48:09 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:09 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:48:09 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:48:09 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:48:09 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:02 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:49:08 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:49:08 - ERROR - _call_behavior - Exception calling application: tipoViaje
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 26, in Start
+    validate_request(request)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 8, in validate_request
+    if request.tipoViaje not in ["POOL", "REGULAR", "PREMIUM"]:
+AttributeError: tipoViaje
+2024-05-11T00:51:09 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:51:18 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:51:19 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:53:21 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:53:32 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:54:25 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:54:30 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T00:54:30 - ERROR - _call_behavior - Exception calling application: 'int' object has no attribute 'taxi_id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/venv/lib/python3.10/site-packages/grpc/_server.py", line 555, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/server.py", line 27, in Start
+    validate_request(request.tipo_viaje)  # Llamada a la función de validación
+  File "/mnt/c/Users/MSI CYBORG/OneDrive - upb.edu/Escritorio/MyFiles/UPB/7Semestre/Sis Dist/sist_dist_I_24_proyecto_grpc/P3/validation.py", line 3, in validate_request
+    if not request.taxi_id:
+AttributeError: 'int' object has no attribute 'taxi_id'
+2024-05-11T00:58:06 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T00:58:08 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T01:00:10 - INFO - <module> - El servidor esta listo en el puerto localhost:2027
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "101"
+conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "102"
+conductor_id: "Mar\303\255a"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "103"
+conductor_id: "Juan"
+pasajero_id: "A"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714991400
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "104"
+conductor_id: "Ana"
+pasajero_id: "M"
+pasajero_id: "N"
+pasajero_id: "U"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+pasajero_id: "Q"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "106"
+conductor_id: "Carlos"
+pasajero_id: "S"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714994100
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "107"
+conductor_id: "Mar\303\255a"
+pasajero_id: "T"
+pasajero_id: "U"
+pasajero_id: "V"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714995000
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "108"
+conductor_id: "Juan"
+pasajero_id: "W"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.495796
+  longitud: -68.133644
+}
+tiempo {
+  seconds: 1714995900
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "109"
+conductor_id: "Ana"
+pasajero_id: "X"
+tipo_viaje: PREMIUM
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714996800
+}
+
+2024-05-11T01:00:14 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.504233
+  longitud: -68.130761
+}
+tiempo {
+  seconds: 1714997700
+}
+
+2024-05-11T01:03:51 - INFO - Start - viaje: conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T01:03:51 - INFO - Start - viaje: taxi_id: "102"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T01:03:51 - INFO - Start - viaje: tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T01:03:51 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+tipo_viaje: REGULAR
+ubicacion {
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T01:12:42 - INFO - Start - viaje: conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T01:12:42 - INFO - Start - viaje: taxi_id: "102"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T01:12:42 - INFO - Start - viaje: tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T01:12:42 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+tipo_viaje: REGULAR
+ubicacion {
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T01:13:15 - INFO - Start - viaje: conductor_id: "Carlos"
+pasajero_id: "M"
+pasajero_id: "Q"
+tipo_viaje: POOL
+ubicacion {
+  latitud: -16.499301
+  longitud: -68.133652
+}
+tiempo {
+  seconds: 1714989600
+}
+
+2024-05-11T01:13:15 - INFO - Start - viaje: taxi_id: "102"
+pasajero_id: "J"
+tipo_viaje: REGULAR
+ubicacion {
+  latitud: -16.566432
+  longitud: -68.089466
+}
+tiempo {
+  seconds: 1714990500
+}
+
+2024-05-11T01:13:15 - INFO - Start - viaje: tipo_viaje: POOL
+ubicacion {
+  latitud: -16.497683
+  longitud: -68.138264
+}
+tiempo {
+  seconds: 1714992300
+}
+
+2024-05-11T01:13:16 - INFO - Start - viaje: taxi_id: "105"
+conductor_id: "Luis"
+tipo_viaje: REGULAR
+ubicacion {
+}
+tiempo {
+  seconds: 1714993200
+}
+
+2024-05-11T01:13:16 - INFO - Start - viaje: taxi_id: "110"
+conductor_id: "Luis"
+pasajero_id: "AA"
+pasajero_id: "BB"
+tipo_viaje: POOL
+tiempo {
+  seconds: 1714993200
+}
+

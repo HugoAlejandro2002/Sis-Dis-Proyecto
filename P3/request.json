@@ -1,0 +1,11 @@
+{
+    "taxi_id": "1233",
+    "conductor_id": "CON28474",
+    "pasajero_id": ["P234", "P2434"],
+    "tipo_viaje": "PREMIUM",
+    "ubicacion": {
+        "latitud": 25.4326,
+        "longitud": -97.1335
+    },
+    "tiempo": "2024-05-06T10:15:00.000Z"
+}
